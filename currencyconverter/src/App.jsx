@@ -25,13 +25,19 @@ function App() {
   }
 
   return (
-    <>
-     <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat' style={{backgroundImage: `url(https://images.pexels.com/photos/8442322/pexels-photo-8442322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`}}>
+    
+    <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat' style={{backgroundImage: `url(https://images.pexels.com/photos/8442322/pexels-photo-8442322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`}}>
 
-      <h1 className='bg-red-200'>Test for tailwind</h1>
-     </div>
+      <div className='w-full'>
+        <div className='w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30'>
+          <form action=""></form>
+        </div>
+
+      </div>
+      
+    </div>
      
-    </>
+    
   )
 }
 
